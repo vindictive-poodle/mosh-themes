@@ -15,12 +15,12 @@ lightMagenta = "#d382db";
 lightCyan = "#ec7d7a";
 lightWhite = "#fefefe";
 
-t.prefs_set('color-palette-overrides',
+t.prefs_.set('color-palette-overrides',
                 [ black, red, green, yellow,
                   blue, magenta, cyan, white,
                   lightBlack, lightRed, lightGreen, lightYellow,
                   lightBlue, lightMagenta, lightCyan, lightWhite ]);
 
-t.prefs_set('cursor-color', 'rgba(90, 228, 250)');
-t.prefs_set('foreground-color', '#d0c8c3');
-t.prefs_set('background-color', '#16141e');
+t.prefs_.set('cursor-color', 'rgba(90, 228, 250)');
+t.prefs_.set('foreground-color', '#d0c8c3');
+t.prefs_.set('background-color', '#16141e');
