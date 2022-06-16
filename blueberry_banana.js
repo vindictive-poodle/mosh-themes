@@ -1,4 +1,26 @@
-t.prefs_.set('color-palette-overrides',["#17141f", "#fd236a", "#fd236a","#e7702c", "#a7aaec", "#8f6aa8", "#3bdeed", "#9e9ea0", "#59516a", "#fd236a", "#f8ed4f", "#f8ed4f", "#5ae4fa", "#ad81c2", "#9de3eb", "#a288f7"]);
-t.prefs_.set('foreground-color', "#5ae4fa");
-t.prefs_.set('background-color', "#17141f");
-t.prefs_.set('cursor-color', 'rgba(248,237,79,0.5)');
+black = "#14181d";
+red = "#8143ec";
+green = "#ec7d7a";
+yellow = "#e7702c";
+blue = "#d3e24f";
+magenta = "#cb3065";
+cyan = "#69c6a9";
+white = "#c7c7c7";
+lightBlack = "#676767";
+lightRed = "#5ae4fa";
+lightGreen = "#82e1f6";
+lightYellow = "#f8ed4f";
+lightBlue = "#a7aaec";
+lightMagenta = "#d382db";
+lightCyan = "#ec7d7a";
+lightWhite = "#fefefe";
+
+t.prefs_set('color-palette-overrides',
+                [ black, red, green, yellow,
+                  blue, magenta, cyan, white,
+                  lightBlack, lightRed, lightGreen, lightYellow,
+                  lightBlue, lightMagenta, lightCyan, lightWhite ]);
+
+t.prefs_set('cursor-color', 'rgba(90, 228, 250)');
+t.prefs_set('foreground-color', '#d0c8c3');
+t.prefs_set('background-color', '#16141e');
